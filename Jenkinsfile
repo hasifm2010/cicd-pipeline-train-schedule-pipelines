@@ -1,5 +1,5 @@
 pipeline {
-  agent rhel_slave1
+  agent any
   stages {
     stage ('Build') {
       steps {
